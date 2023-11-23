@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
+@font-face {
+    font-family: Sagne;
+    src: url(../fonts/sagne.otf);
+}
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+header {
+    width: 100%;
+}
+
+main {
+    height: 700px;
+    background-image: url(../multimedia/jumbotron.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #a58618;
+    text-shadow: 0 0 0 #000;
+    transition: all 0.8s;
+}
+
+h1:hover{
+    color: #ddd;
+}
+
+.navbar {
+    background: linear-gradient(#F7F7F7, #fff, #F7F7F7);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.navbar-brand {
+    font-family: Sagne;
+    font-size: 40px;
+    color: rgba(161, 149, 105, 0.952) !important;
+    text-shadow: 0 0 5px #a19569;
+    width: 100px;
+    margin-top: 4px;
+}
+
+.img-logo {
+    height: 45px;
+    width: auto;
+    cursor: pointer;
+    margin-top: 2px;
+    transition: all 0.7s;
+}
+
+.img-logo:hover {
+    transform: scale(1.2) !important;
+}
+
+#collapsibleNavbar {
+    justify-content: center;
+}
+
+.nav-link {
+    color: #a19569 !important;
+    text-shadow: 0 0 5px #a19569;
+    font-size: 28px;
+    font-family: Sagne;
+    transition: all 0.7s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1) !important;
+    color: #cabc88  !important;
+}
+
+.call {
+    height: auto;
+    width: 300px;
+    border: 2px solid #a19569;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    background-color: rgba(250, 250, 250, 0.377);
+    box-shadow: 0 0 10px #a19569;
+    font-family: Oswald;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.carousel-inner {
+    max-height: 50rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bolder;
+    transition: all 0.8s;
+}
+
+h2:hover{
+    color: #ddd;
+}
+
+.separador {
+    background: black;
+    font-size: 16px;
+    font-family: Oswald;
+    color: #a19569;
+    font-weight: bold;
+    text-shadow: 0 0 5px #a19569;
+    background: conic-gradient(from 45deg, black,#a19569);
+}
+
+.nosotros {
+    background: conic-gradient(from 45deg, #a19569, black);
+    font-size: 18px;
+    font-family: Oswald;
+    color: #cabc88;
+    text-shadow: 0 0 5px #a19569;
+}
+
+.categorias {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+h5 {
+    color: #a19569;
+    font-family: Sagne;
+    font-size: 50px;
+}
+
+h6 {
+    color: #a19569;
+    font-family: Sagne;
+    font-size: 35px;
+}
+
+.card {
+    background: #F7F7F7;
+    box-shadow: 0 0 10px #000;
+    transition: all 0.7s;
+    height: auto;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-desc {
+    height: 50px;
+    font-size: 35px;
+}
+
+.card-body--desc {
+    height: 50px;
+}
+
+.card-footer {
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+
+
+footer {
+    background-color: #F7F7F7;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+}
+
+footer .redes {
+    margin-top: 15px;
+}
+
+footer .redes a {
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.subir {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    text-shadow: 0 0 5px #000;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+
+.separador-categoria {
+    background: black;
+    font-size: 16px;
+    font-family: Oswald;
+    color: #a19569;
+    font-weight: bold;
+    text-shadow: 0 0 5px #a19569;
+    margin-top: 90px;
+}
+
+.container-cotacto,
+label {
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+
+::placeholder {
+    font-family: Oswald;
+    font-size: 15px;
+}
+
+.info-contacto h3{
+    color: #000;
+    font-family: Oswald;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+}
+
+.info-contacto h4 {
+    font-family: Oswald;
+    color: #a19569;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    
+}
+
+.info-contacto i {
+    color: #a19569;
+}
+
+.btn{
+    width: 100px;
+    background-color: rgba(160, 139, 69, 0.8);
+    font-family: Oswald;
+    font-size: 18px;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+/* Comienzo de Media Queries */
+
+@media only screen and (min-width:575px) and (max-width:767px) {
+
+    .navbar-brand {
+        font-size: 30px;
+        margin-top: 8px;
+    }
+
+    .nav-link {
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1400px) {
+    .navbar-brand {
+        font-size: 40px;
+        margin-top: 8px;
+    }
+
+    .nav-link {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    h6 {
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (min-width:855px) {
+    .card-oferta {
+        width: 100% !important;
+    }
+}
