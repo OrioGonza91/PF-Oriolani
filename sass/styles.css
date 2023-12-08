@@ -209,6 +209,11 @@ footer .redes a {
   font-size: 20px;
 }
 
+::-moz-placeholder {
+  font-family: Oswald;
+  font-size: 15px;
+}
+
 ::placeholder {
   font-family: Oswald;
   font-size: 15px;
@@ -343,6 +348,4 @@ footer .redes a {
     background-position: center;
     margin-left: auto;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
